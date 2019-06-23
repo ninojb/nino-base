@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Model__c</fullName>
+    <description>The vehicle sub model</description>
+    <externalId>false</externalId>
+    <formula>Model__r.Sub_Model__c</formula>
+    <inlineHelpText>The vehicle sub model</inlineHelpText>
+    <label>Sub Model</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

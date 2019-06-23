@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volume_Unit__c</fullName>
+    <description>The unit volume to use for Car Maintenance App</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The unit volume to use for Car Maintenance App</inlineHelpText>
+    <label>Volume Unit</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Galon</fullName>
+                <default>true</default>
+                <label>Galon</label>
+            </value>
+            <value>
+                <fullName>Litre</fullName>
+                <default>false</default>
+                <label>Litre</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

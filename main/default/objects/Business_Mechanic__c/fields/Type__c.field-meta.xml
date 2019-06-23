@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mechanic</fullName>
+                <default>false</default>
+                <label>Mechanic</label>
+            </value>
+            <value>
+                <fullName>Vehicle Shop</fullName>
+                <default>false</default>
+                <label>Vehicle Shop</label>
+            </value>
+            <value>
+                <fullName>Store</fullName>
+                <default>false</default>
+                <label>Store</label>
+            </value>
+            <value>
+                <fullName>Gas Station</fullName>
+                <default>false</default>
+                <label>Gas Station</label>
+            </value>
+            <value>
+                <fullName>Insurer</fullName>
+                <default>false</default>
+                <label>Insurer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distance_Unit__c</fullName>
+    <description>Unit distance to use for the Car Maintenance App</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Unit distance to use for the Car Maintenance App</inlineHelpText>
+    <label>Distance Unit</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kilometer</fullName>
+                <default>true</default>
+                <label>Kilometer</label>
+            </value>
+            <value>
+                <fullName>Mile</fullName>
+                <default>false</default>
+                <label>Mile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
