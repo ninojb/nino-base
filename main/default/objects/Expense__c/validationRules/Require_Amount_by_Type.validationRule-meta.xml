@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Amount_by_Type</fullName>
+    <active>true</active>
+    <description>Require amount value for Service, Fuel, Warranty of Fitness, Insurance and Registration expenses</description>
+    <errorConditionFormula>AND(
+NOT($Permission.Skip_Validation_Rules),
+ISBLANK(Amount__c),
+OR(
+ISPICKVAL(Type__c,&#39;Service&#39;),
+ISPICKVAL(Type__c,&#39;Fuel&#39;),
+ISPICKVAL(Type__c,&#39;Warranty of Fitness&#39;),
+ISPICKVAL(Type__c,&#39;Insurance&#39;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>Amount is required for Service, Fuel, Warranty of Fitness, Insurance and Registration expenses</errorMessage>
+</ValidationRule>
