@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Octane_Rating_for_Fuel_Expense</fullName>
+    <active>true</active>
+    <description>Require Octane Rating for Expense Type Fuel</description>
+    <errorConditionFormula>AND(
+NOT($Permission.Skip_Validation_Rules),
+ISPICKVAL(Type__c,&#39;Fuel&#39;),
+ISBLANK(TEXT(Octane_Rating__c))
+)</errorConditionFormula>
+    <errorDisplayField>Octane_Rating__c</errorDisplayField>
+    <errorMessage>Octane Type is required for Fuel Expense</errorMessage>
+</ValidationRule>

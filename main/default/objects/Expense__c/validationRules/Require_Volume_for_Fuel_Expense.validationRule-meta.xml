@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Volume_for_Fuel_Expense</fullName>
+    <active>true</active>
+    <description>Require Volume input when Expense Type is Fuel</description>
+    <errorConditionFormula>AND(
+NOT($Permission.Skip_Validation_Rules),
+ISBLANK(Volume__c),
+ISPICKVAL(Type__c,&#39;Fuel&#39;) 
+)</errorConditionFormula>
+    <errorDisplayField>Volume__c</errorDisplayField>
+    <errorMessage>Volume is required for Fuel expense</errorMessage>
+</ValidationRule>
