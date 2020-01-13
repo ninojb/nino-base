@@ -33,12 +33,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Expense__c.Octane_Type__c</field>
+        <field>Expense__c.Odometer_Reading__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Expense__c.Odometer__c</field>
+        <field>Expense__c.Octane_Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
