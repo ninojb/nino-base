@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Dealer__c</fullName>
+    <fullName>Dealer2__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>The dealer the vehicle was purchased</description>
     <externalId>false</externalId>
-    <label>Deprecated - Dealer</label>
-    <referenceTo>Account</referenceTo>
+    <label>Dealer</label>
+    <referenceTo>Business_Mechanic__c</referenceTo>
     <relationshipLabel>Vehicles</relationshipLabel>
     <relationshipName>Vehicles</relationshipName>
     <required>false</required>
