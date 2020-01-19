@@ -4,7 +4,7 @@
     <description>The fuel volume filled up</description>
     <externalId>false</externalId>
     <inlineHelpText>The fuel volume filled up</inlineHelpText>
-    <label>Volume</label>
+    <label>Deprecated - Volume</label>
     <precision>3</precision>
     <required>false</required>
     <scale>0</scale>
