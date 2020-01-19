@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Mechanic__c</fullName>
+    <fullName>Business_Mechanic__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>The mechanic who serviced the vehicle</description>
+    <description>The business, store or vehicle shop for this expense</description>
     <externalId>false</externalId>
-    <inlineHelpText>The mechanic who serviced the vehicle</inlineHelpText>
-    <label>Deprecated - Mechanic</label>
-    <referenceTo>Contact</referenceTo>
+    <inlineHelpText>The business, store or vehicle shop for this expense</inlineHelpText>
+    <label>Business/Mechanic</label>
+    <referenceTo>Business_Mechanic__c</referenceTo>
     <relationshipLabel>Expenses</relationshipLabel>
     <relationshipName>Expenses</relationshipName>
     <required>false</required>
