@@ -5,7 +5,7 @@
     <description>The business, store or vehicle shop for this expense</description>
     <externalId>false</externalId>
     <inlineHelpText>The business, store or vehicle shop for this expense</inlineHelpText>
-    <label>Business</label>
+    <label>Deprecated - Business</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Expenses</relationshipLabel>
     <relationshipName>Expenses</relationshipName>
