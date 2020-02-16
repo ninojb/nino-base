@@ -62,7 +62,7 @@ sfdx force:org:create -f config/project-scratch-def.json -a <ORG_NAME>  -d <DURA
 - **Set Default UserName (you can opt to set this when creating the scratch org above)**
 
 ```
-sfdx force:config:set defaultusername=CMADev1
+sfdx force:config:set defaultusername=<ORG_NAME>
 ```
 
 - **Add the below as part of .forceignore**
