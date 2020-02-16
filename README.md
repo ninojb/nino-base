@@ -2,11 +2,6 @@
 # Description
 Schema repository. The aim of this repo is to list all object, fields, layouts for my dev environment and should replicate a package-based development model.
 
-Hi. I'm just wondering if I can book a hotel for my pet Kira 
-
-January 25th to 27th
-
-
 ---
 # Instructions on setting up the project
 
