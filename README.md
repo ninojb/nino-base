@@ -71,9 +71,3 @@ nino-base/README.md
 ```
 sfdx force:source:push
 ```
-
-- **Assign the permission Set to the user**
-
-```
-sfdx force:user:permset:assign -n Car_Maintenance_App_Access
-```
