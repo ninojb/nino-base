@@ -9,9 +9,8 @@ Schema repository. The aim of this repo is to list all object, fields, layouts f
 
 sfdx force:project:create -n CMA 
 
-- **Create  a folder named "nino-base" from the root directory of the CMA project**
 
-- **Clone this repo in a folder under the project**
+- **Clone this repo in the root directory of the project**
 
 - **Update project definition file to include this repo** 
 
@@ -48,6 +47,12 @@ sfdx force:project:create -n CMA
 }
 ```
 
+- **Add the below as part of .forceignore**
+
+```
+nino-base/README.md
+```
+
 - **Create a Scratch Org replacing ORG_NAME with the value you want and the DURATION in days(Ensure that you have authorized a devhub)**
 
 ```
@@ -58,12 +63,6 @@ sfdx force:org:create -f config/project-scratch-def.json -a <ORG_NAME>  -d <DURA
 
 ```
 sfdx force:config:set defaultusername=<ORG_NAME>
-```
-
-- **Add the below as part of .forceignore**
-
-```
-nino-base/README.md
 ```
 
 - **Push the codes**
